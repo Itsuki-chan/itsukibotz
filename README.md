@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./stik/thumb.jpeg" alt="ItsukiBotz" width="300" />
+<img src="./stik/thumb.jpeg" alt="ItsukiBotz" width="300" /> </div>
 
 # Itsuki Botz
 

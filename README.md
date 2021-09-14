@@ -1,10 +1,13 @@
 <div align="center">
-<img src="./stik/thumb.jpeg" alt="ItsukiBotz" width="300" /> </div>
+<img src="./stik/thumb.jpeg" alt="ItsukiBotz" width="300" />
 
 # Itsuki Botz
 
 
 # **Please.**
+>
+>
+>
 - [Subscribe My Chanel Youtube](https://m.youtube.com/channel/Adiination)
 
 - [Donate](wa.me/60199782326)
@@ -17,7 +20,7 @@
 
 <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
-<div>
+</div>
 
 ____
 

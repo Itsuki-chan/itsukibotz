@@ -39,8 +39,8 @@
 ```json
 {
     "ownernomor": "60199782326@s.whatsapp.net"
-    "owner": "60199782326"
-    "fake": "ItsukiBotz"
+    "owner": "60199782326",
+    "fake": "ItsukiBotz",
     "fake1": "*Created by Itsuki??*"
 }
 ```

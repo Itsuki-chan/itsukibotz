@@ -4,33 +4,17 @@
 # Itsuki Botz
 
 
-# **Please.**
->
->
->
+# Please
 - [Subscribe My Chanel Youtube](https://m.youtube.com/channel/Adiination)
 
 - [Donate](wa.me/60199782326)
-
-## <div align="center"> Used </div>
-
-<div align="center">
-
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-
-<img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
-
-</div>
-
-____
 
 ## CARA INSTALL DI TERMUX
 ```cmd
 > apt install nodejs && apt install git
 > git clone https://github.com/Itsuki-chan/itsukibotz
 > cd itsukibotz
-> bash install.sh / npm install
-> npm update
+> bash install.sh
 > npm start/node main.js
 ```
 
@@ -44,12 +28,11 @@ ____
 ```cmd
 > git clone https://github.com/Itsuki-chan/itsukibotz
 > cd itsukibotz
-> npm i
-> npm update
+> npm install
 > npm start/node main.js
 ```
 
-#### Note : kalo gamau npm i tinggal run aja. ada node_modules
+#### Note : kalo gamau `npm i` tinggal `npm start` aja. udh ada node_modules
 
 # PIMTUR
 

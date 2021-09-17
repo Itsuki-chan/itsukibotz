@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./stik/thumb.jpeg" alt="ItsukiBotz" width="300" />
+<img src="./stik/thumb.jpeg" alt="ItsukiBotz" width="100" />
 </div>
 
 # Itsuki Botz
@@ -34,6 +34,20 @@
 ```
 
 #### Note : kalo gamau `npm i` tinggal `npm start` aja. udh ada node_modules
+
+## Edit required value in `setting.json`
+```json
+{
+    "ownernomor": "60199782326@s.whatsapp.net"
+    "owner": "60199782326"
+    "fake": "ItsukiBotz"
+    "fake1": "*Created by Itsuki??*"
+}
+```
+- `ownernomor` = Put your number here
+- `owner` = Put your number here
+- `fake` = Fake Reply
+- `fake1` = Fake reply 1
 
 # PIMTUR
 

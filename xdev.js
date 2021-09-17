@@ -62,12 +62,17 @@ let imagenye = JSON.parse(fs.readFileSync('./temp/image.json'))
 let videonye = JSON.parse(fs.readFileSync('./temp/video.json'))
 let bancht = JSON.parse(fs.readFileSync('./database/banchat.json'))
 
+let setting = require('./setting.json')
+
+//--------[setting]---------
+
 banChats = true
 offline = false
 targetpc = '0'
-ownerNumber = ["60199782326@s.whatsapp.net"]
-fake = 'Itsuki Botz'
-fake1 = '*© 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 Itsuki??*'
+ownerNumber = setting.ownernomor
+owner = setting.owner
+fake = setting.fake
+fake1 = setting.fake1
 numbernye = '0'
 waktu = '-'
 alasan = 'Nonton anime:v'
@@ -495,7 +500,7 @@ gbutsan = [
  gbuttonan = {
 imageMessage: mhan.message.imageMessage,
     contentText: help.menu(pushname, sender, prefix, banChats, ucapanWaktu, timeWib, timeWit, timeWita),
-    footerText: `Runtime : ${teks}\n\nCreated by Itsuki`,
+    footerText: `Runtime : ${teks}`,
     buttons: gbutsan,
     headerType: 4
 }
@@ -1268,7 +1273,7 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = xdev.contacts[i] != undefined ? xdev.contacts[i].vname || xdev.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'ɪ ᴀᴍ ᴢᴀᴋʙᴏᴛᴢ',
+"displayName": 'Itsuki',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xdev.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -2265,7 +2270,7 @@ break
 
  
 default:
-if (button == 'OWNER') {
+if (button == 'Owner') {
 console.log('CREATOR')
 let inilist = []
 for (let i of ownerNumber) {
@@ -2281,11 +2286,11 @@ hehe = await xdev.sendMessage(from, {
 }, 'contactsArrayMessage', { quoted: dev })
 xdev.sendMessage(from,'Ni OWNER ITSUKI',text,{quoted: hehe})
 }
-if (button == 'GITHUB') {
+if (button == 'Github') {
 console.log('GITHUB')
 xdev.sendMessage(from, `Bot ini menggunakan sc : github.com/Itsuki-chan/itsukibotz`, text, {quoted: dev})
 }
-if (button == 'YOUTUBE') {
+if (button == 'Youtube') {
 console.log('YOUTUBE')
 xdev.sendMessage(from, `*Subscribe Chanel Owner Ya*\n_https://m.youtube.com/channel/adiination_`, text, {quoted: dev})
 }
